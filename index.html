@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>neuls</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/gnb_open.css">
+    <!--슬라이드 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="adv">
+            <div class="adv_contents">
+                <p>회원가입시 20,000Point & 최대30% 할인쿠폰 증정</p>
+                <button type="button" id="close"><img src="./img/Close.png" alt="닫기"></button>
+            </div>
+        </div>
+        <div id="user">
+            <div class="userbar">
+                <a href="#" class="login">로그인</a>
+                <a href="#" class="join">회원가입</a>
+                <a href="#" class="cart">장바구니</a>
+                <a href="#" class="mypage">마이페이지</a>
+            </div>
+            <!-- <form action="#" method="get" id="searchFrm">
+                <fieldset>
+                    <legend class="skip">검색양식</legend>
+                    <input type="text" id="search" placeholder="찾으시는 상품을 검색하세요">
+                    <button type="button" class="searchBtn"><img src="./img/Search.png" alt=""></button>
+                </fieldset>
+            </form> -->
+        </div>
+        <div class="logo">
+            <a href="#"><h1></h1><img src="#" alt=""></h1></a>
+        </div>
+        <ul class="gnb">
+            <li><a href="#">BEST</a></li>
+            <li><a href="#" >ALL</a></li>
+            <li><a href="#" >썬캐쳐</a></li>
+            <li><a href="#" >트레이</a></li>
+            <li><a href="#" >화병</a></li>
+            <li><a href="#">리뷰 이벤트</a></li>
+            <li><a href="#">공지사항</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-------------------------광고 스와이퍼------------------------->
+        <div class="swiper" id="neul_slide">
+            <!--.swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀-->
+            <div class="swiper-wrapper">
+                <!--.swiper-slide 슬라이드 개별 한장 부모-->
+                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide2"></div>
+                <div class="swiper-slide slide3"></div>
+                <div class="swiper-slide slide4"></div>
+            </div>
+            <!--슬라이드 이전, 다음버튼-->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+        </div>
+        <div class="review">
+            <h2>고객만족 리뷰</h2>
+        </div>
+        <!------------------------리뷰  스와이퍼 ------------------------------>
+        <div class="swiper" id="review_slide">
+            <!--.swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀-->
+            <div class="swiper-wrapper">
+                <!--.swiper-slide 슬라이드 개별 한장 부모-->
+                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide2"></div>
+                <div class="swiper-slide slide3"></div>
+                <div class="swiper-slide slide4"></div>
+                <div class="swiper-slide slide5"></div>
+                <div class="swiper-slide slide6"></div>
+            </div>
+        </div>
+        <!--best-->
+        <div class="best">
+            <h2>BEST</h2>
+            <div class="container"><!--상품시작-->
+                <div class="item item1">
+                    <div class="i_top">
+                        <a href="#"><img src="./img/item1.jpeg" alt="1"></a>
+                    </div>
+                    <div class="i_bt">
+                        <p>[미카엘 스테인드 글라스]</p>
+                        <h3>다이아 조명</h3>
+                        <span>25,000원</span>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="i_top">
+                        <a href="#"><img src="./img/item2.jpg" alt="1"></a>
+                    </div>
+                    <div class="i_bt">
+                        <p>[미카엘 스테인드 글라스]</p>
+                        <h3>다이아 조명</h3>
+                        <span>25,000원</span>
+                    </div>
+                </div>
+                <div class="item item3">
+                    <div class="i_top">
+                        <a href="#"><img src="./img/item3.jpg" alt="1"></a>
+                    </div>
+                    <div class="i_bt">
+                        <p>[미카엘 스테인드 글라스]</p>
+                        <h3>다이아 조명</h3>
+                        <span>25,000원</span>
+                    </div>
+                </div>
+                <div class="item item4">
+                    <div class="i_top">
+                        <a href="#"><img src="./img/item4.jpg" alt="1"></a>
+                    </div>
+                    <div class="i_bt">
+                        <p>[미카엘 스테인드 글라스]</p>
+                        <h3>다이아 조명</h3>
+                        <span>25,000원</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./style/index.js"></script>
+</body>
+</html>
